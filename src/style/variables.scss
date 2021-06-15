@@ -1,0 +1,15 @@
+:root {
+    --background-color : rgb(238, 238, 238);
+    --light-text-color : rgb(236, 236, 236);
+    --dark-text-color : rgb(41, 40, 41);
+    --navbar-background-color : rgb(39, 38, 43);
+    --nav-menu-background-color : rgb(61, 59, 73);
+    --nav-link-background-color : rgba(66, 64, 73, 0.815);
+    --nav-link-line-image : linear-gradient(to right top, #1b93d8, #02bdce, #02bdce, #00bf72, #a8eb12);
+    --nav-link-line-focus-image : linear-gradient(to right top, #051937, #3a235a, #7c1a68, #bc005c, #eb1238);
+}
+
+[data-theme="dark"] {
+    --background-color: rgb(68, 68, 68);
+    --dark-text-color: #f8f5f1;
+}
