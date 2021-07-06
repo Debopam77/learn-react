@@ -5,6 +5,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--background-color);
   color : var(--dark-text-color);
+  transition: 0.4s;
 }
 
 code {
@@ -15,4 +16,66 @@ code {
 a {
   text-decoration: none;
   color : unset;
+}
+
+.infoChunk {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoArea2 {
+  background-color: var(--navbar-background-color);
+  width : 800px;
+  border-radius: 5px;
+  color : var(--light-text-color);
+  font-weight:900;
+  padding: 10px;
+  transition: 0.25s;
+}
+.infoArea {
+  text-align: left;
+  width : 800px;
+  color : var(--dark-text-color);
+  padding: 10px;
+  transition: 0.25s;
+}
+
+.infoArea:hover {
+  background-color: var(--navbar-background-color);
+  color : var(--light-text-color);
+  border-radius: 5px;
+  box-shadow: white;
+}
+
+.infoArea:focus {
+  background-color: var(--navbar-background-color);
+  color : var(--light-text-color);
+  border-radius: 5px;
+  box-shadow: white;
+}
+
+@media only screen and (max-width : 850px) {
+  .infoChunk {
+      font-size: 90%;
+  }
+  .infoArea {
+      width : 700px;
+  }
+}
+@media only screen and (max-width : 750px) {
+  .infoArea {
+      width : 500px;
+  }
+}
+@media only screen and (max-width : 650px) {
+  .infoArea {
+      width : 400px;
+  }
+}
+@media only screen and (max-width : 500px) {
+  .infoArea {
+      width : 300px;
+  }
 }

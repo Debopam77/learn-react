@@ -1,5 +1,5 @@
-import '../../style/Home.scss';
-import {whatIsReact, whyUseReact, whatDoesReactSolve, featuresOfReact} from './homeText';
+import '../style/index.scss';
+import {whatIsReact, whyUseReact, whatDoesReactSolve, featuresOfReact} from '../textInformation/homeText';
 
 function Home() {
 
